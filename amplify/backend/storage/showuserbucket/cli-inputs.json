@@ -1,0 +1,16 @@
+{
+  "resourceName": "showuserbucket",
+  "policyUUID": "e9fe30a1",
+  "bucketName": "showusermediabucket",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

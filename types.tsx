@@ -33,3 +33,12 @@ export type RootTabScreenProps<Screen extends keyof RootTabParamList> = Composit
   BottomTabScreenProps<RootTabParamList, Screen>,
   NativeStackScreenProps<RootStackParamList>
 >;
+
+export interface Match {
+  title: string;
+  date: string;
+  time: string;
+  homeTeam: string;
+  awayTeam: string;
+  matchType: string;
+}
